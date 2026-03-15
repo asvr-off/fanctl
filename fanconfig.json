@@ -1,0 +1,7 @@
+{
+  "exhaust_mins": 180,
+  "intake_mins": 120,
+  "break_mins": 30,
+  "warn_temp": 35.0,
+  "danger_temp": 50.0
+}
