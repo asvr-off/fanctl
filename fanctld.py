@@ -57,7 +57,7 @@ temp_override = False
 cfg           = {}
 profile       = "auto"
 last_status   = {}
-led_enabled   = True
+led_enabled   = False
 current_serial = None
 
 def send_cmd(s, cmd):

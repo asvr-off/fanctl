@@ -88,6 +88,8 @@ void setup() {
   pinMode(FAN2_PIN, OUTPUT);
   pinMode(LED_PIN,  OUTPUT);
   dht.begin();
+  ledEnabled = false;
+  analogWrite(LED_PIN, 0);
   setFans(false, false);
 }
 
